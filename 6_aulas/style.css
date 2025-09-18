@@ -1,0 +1,51 @@
+*{
+    font-family: "Story Script", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+div {
+    width: 250px;
+    height: 150px;
+    margin: 30px auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+
+/* Usando o RGBA para colcoar um fundo azul com 70% de opacidade(0.7)*/
+.caixa-rgba {
+    background-color: rgba(0, 100,255, 0.7);
+}
+
+/* Colocando 5px para direta e para baixo, com 10px de desfoque e sombras pretas  */
+.caixa-box-shadow {
+    background-color: #3498db;
+    box-shadow: 5px 5px 10px black;
+}
+
+/* Combinando os dois conceitos (box rgba e sombras) */
+.caixa-sombra-suave {
+    background-color: #2ecc71;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.4);
+}
